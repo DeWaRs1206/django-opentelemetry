@@ -13,7 +13,7 @@ def main():
 
     # This call is what makes the Django application be instrumented
     DjangoInstrumentor().instrument()
-    MySQLInstrumentor().instrument
+    MySQLInstrumentor().instrument()
 
     try:
         from django.core.management import execute_from_command_line
