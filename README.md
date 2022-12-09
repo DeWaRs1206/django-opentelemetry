@@ -1,0 +1,11 @@
+How to reproduce the issue:
+- Create a mysql database called `django_app`
+- Update blog/settings.py DATABASES section to update credentials. 
+- Create a virtual env: `virtualenv -p python3.7 venv`
+- Load virtual env: `source venv/bin/activate`
+- install requierements: `pip install -r requierements.txt
+- create a superuser: `python3 manage.py createsuperuser`
+- run the server: python manage.py runserver
+- visite the webpage: http://127.0.0.1/admin
+- login with your superuser
+- Console show DjangoInstrument logs, but not MySQLInstrument.
