@@ -3,7 +3,7 @@ How to reproduce the issue:
 - Update blog/settings.py DATABASES section to update credentials. 
 - Create a virtual env: `virtualenv -p python3.7 venv`
 - Load virtual env: `source venv/bin/activate`
-- install requierements: `pip install -r requierements.txt
+- install requierements: `pip install -r requierements.txt`
 - create a superuser: `python3 manage.py createsuperuser`
 - run the server: python manage.py runserver
 - visite the webpage: http://127.0.0.1/admin
